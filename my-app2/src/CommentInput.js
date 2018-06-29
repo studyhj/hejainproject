@@ -42,7 +42,7 @@ class CommentInput extends Component{
 				
 					<span className = 'comment-field-name'>评论内容:</span>
 					<div>
-						<textarea rows="10" cols="20" value={this.state.content} onChange={this.handleContentChange.bind(this)}/>
+						<textarea rows="10" cols="50" value={this.state.content} onChange={this.handleContentChange.bind(this)}/>
 					</div>
 				</div>
 				<div className = 'comment-field-button'>
