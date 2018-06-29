@@ -97,6 +97,7 @@ body {
 }
 .comment .comment-user span{
 	color: #00a3cf;
+	margin-right: 5px;
 }
 .comment-username {
 	color: #00a3cf;
